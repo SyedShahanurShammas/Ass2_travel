@@ -74,7 +74,9 @@ main {
 /* Banner start */
 .banner {
     min-height: 500px;
-    border: 2px solid saddlebrown;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    border-radius: 16px;
 }
 
 .banner-content {
@@ -87,12 +89,14 @@ main {
 .banner-content h1 {
     font-size: 4rem;
     margin-bottom: 24px;
+    color: rgba(255, 255, 255, 1);
     font-weight: 800px;
 }
 
 .banner-content p {
     font-weight: 400px;
     width: 676px;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
@@ -100,6 +104,11 @@ main {
     margin-top: 60px;
     display: flex;
     gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* background: transparent; */
+
 }
 
 form label {
