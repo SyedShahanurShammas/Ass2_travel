@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+}
+
+/* Mobile device */
+
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+}
