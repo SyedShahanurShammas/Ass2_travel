@@ -8,17 +8,52 @@
 /* Mobile device */
 
 @media screen and (max-width:576px) {
-    nav {
+
+    nav,
+    .banner-content>form,
+    form label {
         flex-direction: column;
     }
 
+    main {
+        margin-top: 30px;
+    }
+
+    .banner-content>form {
+        max-width: 92%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    main {
+        max-width: 90%;
+    }
+
+    .banner-content h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .banner-content {
+        padding-top: 32px;
+        display: block;
+        text-align: center;
+    }
+
+    .banner-content p {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
     nav ul {
-        gap: 15px;
+        gap: 11px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    header {
+
+    header,
+    main {
         max-width: 800px;
     }
 }
