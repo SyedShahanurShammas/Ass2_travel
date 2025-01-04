@@ -62,5 +62,73 @@ ul>li>a {
     font-size: 18px;
     color: rgba(66, 66, 71, 1);
     font-weight: 400px;
+}
 
+/* main section  start here */
+main {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+/* Banner start */
+.banner {
+    min-height: 500px;
+    border: 2px solid saddlebrown;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 106px;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    margin-bottom: 24px;
+    font-weight: 800px;
+}
+
+.banner-content p {
+    font-weight: 400px;
+    width: 676px;
+    text-align: center;
+}
+
+.banner-content>form {
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+form label {
+    display: flex;
+    gap: 24px;
+}
+
+.text-of-form {
+    color: var(--secondary-color);
+    font-weight: 400;
+    padding: 16px 15px;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.find_btn {
+    background-color: var(--primary-color);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 34px;
+    border-radius: 8px;
+    border: none;
+}
+
+.fa-magnifying-glass {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
 }
