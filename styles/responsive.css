@@ -208,6 +208,35 @@
         grid-column: 1/span 2;
     }
 
+    .first-satorini-content {
+        margin-right: 3rem;
+    }
+
+    .first-satorini-content {
+        margin-right: 3rem;
+    }
+
+    #right-side-satoroni {
+        margin-left: 3rem;
+    }
+
+    .section-satoroni-2 {
+        gap: 0;
+    }
+
+    .content-satoroni {
+        width: 80%;
+    }
+
+    .content-all {
+        width: 100%;
+    }
+
+    .icons {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
     /* .section-satoroni-2 {
         background-repeat: no-repeat;
     } */
