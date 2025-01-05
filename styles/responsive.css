@@ -213,9 +213,6 @@
 
     }
 
-    .footer-content p {
-        padding: 0 25px;
-    }
 
     footer {
         height: 360px;
@@ -312,7 +309,7 @@
 }
 
 .footer-content p {
-    width: 600px;
+    width: 80%;
 }
 
 .footer-content {
