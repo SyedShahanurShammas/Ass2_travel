@@ -69,6 +69,7 @@
 
     .destination {
         margin-top: 16px;
+        margin-bottom: 24px;
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -103,6 +104,14 @@
 
     .grid-item7 {
         grid-column: 1/span 1;
+    }
+
+    .why-us-card {
+        width: 95%;
+    }
+
+    .why-us-section {
+        margin-top: 16px;
     }
 
 }
