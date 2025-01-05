@@ -12,7 +12,8 @@
     nav,
     .popular-tour,
     .banner-content>form,
-    form label {
+    form label,
+    .subsription-section {
         flex-direction: column;
     }
 
@@ -176,6 +177,26 @@
 
     .watch-our-bd {
         margin-top: -29px;
+    }
+
+    .subsription-section>form {
+        width: 100%;
+    }
+
+    .subscription-save-picture {
+        width: 100%;
+    }
+
+    .save-up-to-70 {
+        width: auto;
+        height: auto;
+        padding: 20px 10px;
+        right: 2%;
+        bottom: 13%;
+    }
+
+    .subsription-section {
+        display: flex;
     }
 
 
