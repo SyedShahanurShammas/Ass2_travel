@@ -527,3 +527,41 @@ hr {
 .btn-subscribtion {
     width: 100%;
 }
+
+/* footer starts */
+footer {
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.footer-content p {
+    color: var(--secondary-color);
+    font-weight: 400;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.footer-content hr {
+    width: 872px;
+    height: 1px;
+    margin: 50px 0;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-icons {
+    display: flex;
+    gap: 23px;
+}
+
+.footer-icons .fa-brands {
+    height: 23px;
+    width: 23px;
+}
