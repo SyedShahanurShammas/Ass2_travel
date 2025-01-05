@@ -48,6 +48,11 @@
         margin: 0 auto;
     }
 
+    .footer-content hr {
+        width: 335px;
+        height: 1px;
+    }
+
     /* banner ends */
     .popular-tour {
         margin: 24px 0px;
@@ -187,6 +192,10 @@
         width: 100%;
     }
 
+    .subsription-section {
+        margin: 24px 0;
+    }
+
     .save-up-to-70 {
         width: auto;
         height: auto;
@@ -197,6 +206,19 @@
 
     .subsription-section {
         display: flex;
+    }
+
+    .footer-content {
+        padding-top: 33px;
+
+    }
+
+    .footer-content p {
+        padding: 0 25px;
+    }
+
+    footer {
+        height: 360px;
     }
 
 
