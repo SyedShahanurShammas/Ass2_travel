@@ -160,6 +160,24 @@
         margin-bottom: 18px;
     }
 
+    .watch-our-bd {
+        flex-direction: column;
+    }
+
+    .watch-bd-content {
+        width: 100%;
+    }
+
+    .watch-our-content>h1 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: none;
+    }
+
+    .watch-our-bd {
+        margin-top: -29px;
+    }
+
 
 }
 
@@ -228,8 +246,13 @@
         width: 80%;
     }
 
-    .content-all {
+    .content-all,
+    .watch-bd-content {
         width: 100%;
+    }
+
+    .watch-bd-content {
+        width: 90%;
     }
 
     .icons {
@@ -237,9 +260,14 @@
         flex-wrap: wrap;
     }
 
+    .watch-our-bd img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
     /* .section-satoroni-2 {
         background-repeat: no-repeat;
     } */
-
 
 }
