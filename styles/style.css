@@ -26,6 +26,24 @@
     cursor: pointer;
 }
 
+.common-section {
+    text-align: center;
+}
+
+.common-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.common-section p {
+    color: var(--secondary-color);
+}
+
+/* common span */
+.common_color {
+    color: var(--primary-color);
+}
 
 /* Header start */
 nav {
@@ -59,11 +77,6 @@ header {
     color: rgba(19, 19, 24, 1);
     font-size: 2.1rem;
     font-weight: 800;
-}
-
-/* common span */
-.common_color {
-    color: var(--primary-color);
 }
 
 .nv-list>li {
@@ -184,4 +197,57 @@ form label {
 .populer-tour-picture img {
     width: 100%;
     height: 89%;
+}
+
+/* Destination section start here  */
+.destination {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.destination-div {
+    position: relative;
+}
+
+.country-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+}
+
+.destination-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item1 {
+    grid-column: 1/span 6;
+}
+
+.grid-item2 {
+    grid-column: 7/span 6;
+}
+
+.grid-item3 {
+    grid-column: 1/span 4;
+}
+
+.grid-item4 {
+    grid-column: 5/span 5;
+}
+
+.grid-item5 {
+    grid-column: 10/span 3;
+}
+
+.grid-item6 {
+    grid-column: 1/span 5;
+}
+
+.grid-item7 {
+    grid-column: 6/span 7;
 }
