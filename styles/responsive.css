@@ -110,12 +110,60 @@
         width: 95%;
     }
 
+    .content-satoroni {
+        width: 100%;
+    }
+
     .why-us-section {
         margin-top: 16px;
     }
 
+    .why-us-section {
+        margin-bottom: 24px;
+    }
+
+    .content-all {
+        width: 90%;
+        margin-top: 7.5rem;
+        margin-left: 1.2rem;
+        height: 355px;
+        padding: 0;
+        padding: 25px;
+    }
+
+
+    .content-all>p {
+        height: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .section-satoroni-1,
+    .section-satoroni-2,
+    .section-satoroni-3 {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .section-satoroni-2 {
+        background-repeat: no-repeat;
+        gap: 0;
+    }
+
+    #right-side-satoroni {
+        margin-left: 0;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 18px;
+    }
+
+
 }
 
+/* Tabler section start here */
 @media screen and (min-width:576px) and (max-width:960px) {
 
     header,
@@ -159,6 +207,10 @@
     .grid-item7 {
         grid-column: 1/span 2;
     }
+
+    /* .section-satoroni-2 {
+        background-repeat: no-repeat;
+    } */
 
 
 }

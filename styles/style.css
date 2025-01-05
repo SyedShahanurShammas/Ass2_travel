@@ -310,6 +310,10 @@ form label {
 .section-satoroni-1 {
     background-image: url(../Images/Group\ 39.png);
     display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
     align-items: center;
 
 }
@@ -353,6 +357,7 @@ form label {
 .icons {
     display: flex;
     gap: 24px;
+    margin-bottom: 30px;
 }
 
 .fa-solid {
@@ -368,6 +373,10 @@ form label {
 .section-satoroni-2 {
     background-image: url(../Images/Group\ 40.png);
     display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
     align-items: center;
     gap: 4rem;
 }
@@ -385,6 +394,10 @@ form label {
 .section-satoroni-3 {
     background-image: url(../Images/Group\ 39.png);
     display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
     align-items: center;
 
 }
