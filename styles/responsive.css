@@ -309,8 +309,22 @@
     }
 
 
-    /* .section-satoroni-2 {
-        background-repeat: no-repeat;
-    } */
+}
 
+.footer-content p {
+    width: 600px;
+}
+
+.footer-content {
+    padding-top: 60px;
+
+}
+
+footer {
+    height: 400px;
+}
+
+.footer-content hr {
+    max-width: 700px;
+    margin: 30px 0;
 }
