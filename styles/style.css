@@ -401,3 +401,54 @@ form label {
     align-items: center;
 
 }
+
+/* Watch bd Start */
+.watch-our-bd {
+    display: flex;
+    gap: 28px;
+}
+
+.watch-our-bd h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.watch-our-bd p {
+    color: var(--secondary-color);
+    margin-top: 24px;
+}
+
+.watch-our-bd img {
+    width: 100%;
+}
+
+.watch-bd-content>ul>li {
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #131318;
+}
+
+.watch-bd-content>ul {
+    padding-left: 20px;
+    margin: 24px 0;
+}
+
+.watch-bd-content {
+    width: 50%;
+}
+
+.watch-our-content {
+    position: relative;
+}
+
+.watch-our-content>h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
