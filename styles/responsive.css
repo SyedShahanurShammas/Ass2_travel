@@ -10,6 +10,7 @@
 @media screen and (max-width:576px) {
 
     nav,
+    .popular-tour,
     .banner-content>form,
     form label {
         flex-direction: column;
@@ -17,6 +18,7 @@
 
     main {
         margin-top: 30px;
+        max-width: 90%;
     }
 
     .banner-content>form {
@@ -25,8 +27,8 @@
         margin-top: 15px;
     }
 
-    main {
-        max-width: 90%;
+    nav ul {
+        gap: 11px;
     }
 
     .banner-content h1 {
@@ -45,9 +47,22 @@
         margin: 0 auto;
     }
 
-    nav ul {
-        gap: 11px;
+    /* banner ends */
+    .popular-tour {
+        margin: 24px 0px;
+        gap: 24px;
     }
+
+    .populer-tour-picture {
+        width: 100%;
+        order: 2;
+    }
+
+    .popular-tour-content {
+        width: 97%;
+        order: 1;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -55,5 +70,9 @@
     header,
     main {
         max-width: 800px;
+    }
+
+    .populer-tour-picture img {
+        height: 100%;
     }
 }
