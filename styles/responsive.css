@@ -226,8 +226,16 @@
 
     header,
     main {
-        max-width: 800px;
+        max-width: 95%;
     }
+
+    nav {
+        flex-direction: column;
+    }
+
+    /* nav ul {
+        gap: 20px;
+    } */
 
     .destination {
         grid-template-columns: repeat(2, 1fr);
